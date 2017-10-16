@@ -1,4 +1,4 @@
-# All Git Command 
+# All Git Commands
 
 git clone (url)
 
