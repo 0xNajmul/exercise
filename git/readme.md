@@ -1,6 +1,16 @@
 
 # All Git Commands
 
+### Config File
+
+git config --global user.name "Najmul Amin"
+
+git config --global user.email najmulamin123@gmail.com
+
+git config --global color.ui true
+
+### Basic Command
+
 git clone url
 
 git add file_names
