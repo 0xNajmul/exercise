@@ -1,28 +1,28 @@
-#### current user name : echo %username%
-#### Show all User : net user
+#current user name : echo %username%
+#Show all User : net user
 
 1. Quit explorer.exe
 2. Open Command Prompt
 3. Navigate to C:\WINDOWS\system32
 4. Enter the following command: runas /user:*computer name\*account name explorer.exe
 
-#### Add user : net user username password /ADD
-#### Add user (hide): net user username * /ADD || net user /add username *
+#Add user : net user username password /ADD
+#Add user (hide): net user username * /ADD || net user /add username *
 
-#### Delete User : net user username /delete
+#Delete User : net user username /delete
 
-#### To add a new user account to the domain:
+#To add a new user account to the domain:
 net user username password /ADD /DOMAIN
 
-#### Remove User Password : net user username ""
+#Remove User Password : net user username ""
 
-#### Rename User Name
+#Rename User Name
 wmic useraccount where name='currentname' rename newname
 
-#### Change Password : 
+#Change Password : 
 net user username password /PASSWORDCHG:Yes
 
-#### Get Windows Version : winver or ver
+#Get Windows Version : winver or ver
 wmic os get Caption,CSDVersion /value
 
 find something in a text file: 
@@ -30,20 +30,19 @@ findstr string file.txt
 findstr string /I file.txt // for case sensetive
 #Find Multiple Word :
 findstr string string2 file.txt
-
-####Find Sentence
+#Find Sentence
 findstr /C:"Sentence Here" file.txt
 
-#### all words ending with ‘xyz
+# all words ending with ‘xyz
 findstr /R [a-z]*xyz  filename.txt
 
-#### Search String in all file no extension
+#Search String in all file no extension
 findstr /I  String *
 
-#### Search text in multiple file with extension
+#Search text in multiple file with extension
 findstr /I windows C:\data\*.txt
 
-#### Shudown Windows Using Cmd
+#Shudown Windows Using Cmd
 Reboot : shutdown /r
 Shutdown : shutdown /s
 Abort : shutdown /a
@@ -53,13 +52,13 @@ Shutdown Gui : shutdown /i
 Shutdown Timing : shutdown /r /t time_in_seconds
 WMIC Shutdown : wmic os where Primary='TRUE' reboot
 
-#### Natework Connection Window : ncpa.cpl
+#Natework Connection Window : ncpa.cpl
 
 #Rename File Name : 
 rename  *.log   *.txt
 rename file.png file.txt
 
-#### Change Label Name : label d: LabelName
+#Change Label Name : label d: LabelName
 
 #Change Windows Password Using Kali
 computer:///   //File Manager AddressBar Mount Drive
@@ -69,7 +68,7 @@ sudo chntpw SAM //Open Menu
 sudo chntpw -l SAM //List all Users
 sudo chntpw -u "USER NAME" SAM //To work Specific User if name with space use quote else use direct name
 
-#### Last Boot Time : systeminfo | findstr /C:"System Boot Time"
+#Last Boot Time : systeminfo | findstr /C:"System Boot Time"
 
 %Username% : Used to find the id of the user logged in
 %computername%: Name of the computer. It gives NetBios name not the FQDN name.
@@ -80,9 +79,9 @@ sudo chntpw -u "USER NAME" SAM //To work Specific User if name with space use qu
 %windir% : Directory for the Windows OS files. If the OS is installed on C: drive, this variable would point to C:\Windows
 %TMP%, %TEMP% : Points to folder that applications can use to create temporary files.
 
-#### Windows Feature : optionalfeatures
+#Windows Feature : optionalfeatures
 
-#### Disk List Drive
+#Disk List Drive
 wmic logicaldisk get name
 wmic logicaldisk list brief
 
