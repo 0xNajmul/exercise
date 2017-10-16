@@ -1,0 +1,9 @@
+To execute Pip, first of all make sure you have it, so type in your CMD:
+
+#python
+> python
+>>> import pip
+
+#cmd
+> python -m pip <command> <args>
+> python -m pip install <package-name>
