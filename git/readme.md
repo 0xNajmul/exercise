@@ -17,6 +17,10 @@ git clone url
 
 git add file_names
 
+git add file1.txt file2.txt
+
+git add --all
+
 git add *.txt
 
 git commit -m "committed message"
