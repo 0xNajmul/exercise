@@ -9,7 +9,7 @@ git config --global user.email najmulamin123@gmail.com
 
 git config --global color.ui true
 
-### Basic Command
+### Basic Commands
 
 git clone url
 
