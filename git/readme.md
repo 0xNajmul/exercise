@@ -11,7 +11,7 @@ git config --global color.ui true
 
 ### Basic Commands
 
-git init  //initialized a empty git repository
+git init   //initialized a empty git repository
 
 git clone url
 
@@ -23,7 +23,15 @@ git add --all
 
 git add *.txt
 
+git add docs/file.txt
+
+git add docs/   // all all file in docs dir
+
 git commit -m "committed message"
+
+git status
+
+git log
 
 git push -u origin master
 
