@@ -1,6 +1,6 @@
 # example 1
 a=[5,6,7,8,9]
-print(a)
+print(a) 
 
 # example 2
 b=["hello","there"]
