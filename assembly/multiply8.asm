@@ -4,8 +4,7 @@
 
  MAIN PROC
 
-    MOV AL,2  ;INPUT 1 (A) 
-          
+    MOV AL,2  ;INPUT 1 (A)           
     MOV BL,3  ;INPUT 2 (B)         
    
     MUL BL 
