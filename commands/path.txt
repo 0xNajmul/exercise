@@ -1,0 +1,13 @@
+# Set Environment Variable Using CMD
+// works on Windows-7
+
+//User Variable
+setx path "%path%;C:\Program Files (x86)\Git\bin\"
+
+//System Variable
+setx path "%path%;C:\Program Files (x86)\Git\bin\" /M
+
+//Registry Location
+User Variables: HKEY_CURRENT_USER\Environment
+System Variables: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+
