@@ -1,9 +1,15 @@
 To execute Pip, first of all make sure you have it, so type in your CMD:
 
-#python
-> python
->>> import pip
+#method 1
+
+// Add environment Variable : C:\Python_version\Scripts
+Code : pip install <package-name>
+
+#or
 
 #cmd
 > python -m pip <command> <args>
 > python -m pip install <package-name>
+
+
+
