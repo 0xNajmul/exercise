@@ -1,0 +1,12 @@
+# if you need create a virtual environment
+
+//basic install
+installation : pip install jupyter
+
+// start
+start the notebook server : jupyter notebook  //http://localhost:8888
+custom port : jupyter notebook --port 9999
+without opening browser : jupyter notebook --no-browser
+
+//help
+help : jupyter notebook --help
