@@ -1,0 +1,36 @@
+# SETUP 4 Steps:
+Install Python
+Install Pip
+Install VirtualEnv
+Install VirtualEnvWrapper-win  //auxilary
+
+
+Install virtualenv: pip install virtualenv
+Install virtualenvwrapper-win: pip install virtualenvwrapper-win
+Make a Virtual Environemt: mkvirtualenv HelloWold
+Connect our project with our Environment: //go to project direectory
+Set Project Directory: setprojectdir .
+Deactivate: deactivate
+
+Workon: workon HelloWold  //here HelloWorld is Environment name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# More : http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
