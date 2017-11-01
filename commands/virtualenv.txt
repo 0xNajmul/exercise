@@ -4,13 +4,23 @@ Install Pip
 Install VirtualEnv
 Install VirtualEnvWrapper-win  //auxilary
 
-
+//basic work
 Install virtualenv: pip install virtualenv
 Install virtualenvwrapper-win: pip install virtualenvwrapper-win
 Make a Virtual Environemt: mkvirtualenv HelloWold
 Connect our project with our Environment: //go to project direectory
 Set Project Directory: setprojectdir .
 Deactivate: deactivate
-Workon: workon HelloWold  //here HelloWorld is Environment name 
+Workon: workon HelloWold  //here HelloWorld is Environment name ; start work again when you want after deactivate
+
+//list virtualenv
+Normal use : lsvirtualenv
+Brief use: lsvirtualenv -b   //or
+Long use: lsvirtualenv -l
+
+//delete virtualenv
+rmvirtualenv ENVNAME
+
 
 # More : http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
+# More : http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html  //Official
