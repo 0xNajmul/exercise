@@ -11,7 +11,7 @@
     ADD AL,30H 
    
     MOV AH,2
-    MOV DL,AL
+    MOV DL,AL 
     INT 21H     
     
     EXIT:
