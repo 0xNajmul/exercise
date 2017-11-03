@@ -7,8 +7,8 @@
     MOV AL,2  ;INPUT 1 (A)           
     MOV BL,3  ;INPUT 2 (B)         
    
-    MUL BL 
-    ADD AL,30H
+    MUL BL    ; BL always multiply with AL
+    ADD AL,30H 
    
     MOV AH,2
     MOV DL,AL
