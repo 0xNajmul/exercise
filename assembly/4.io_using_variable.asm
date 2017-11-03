@@ -10,11 +10,11 @@ B DB ?
    MOV AX,@DATA
    MOV DS,AX 
             
-   MOV AH,1
+   MOV AH,1  
+   
    INT 21H    ;first input
    MOV A,AL
    
-   MOV AH,1
    INT 21H    ;second input
    MOV B,AL
                   
