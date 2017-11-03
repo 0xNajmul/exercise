@@ -1,0 +1,11 @@
+#Run C Program Using CMD
+1. gcc -m64 -o output64 hello.c  //for 64 bit
+2. gcc -m32 -o output32 hello.c  //for 32 bit
+
+#Run Java File Using CMD :
+1. Install JDK
+2. Create a file (file.java)
+3. Type Code in java File
+4. Go to CMD 
+5. Type C:\mywork> javac filename.java
+6. C:\mywork> java filename
