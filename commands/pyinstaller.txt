@@ -1,0 +1,8 @@
+#install pyinstaller : pip install pyinstaller
+1. Go to python Folder Dir
+Basic with console : pyinstaller file.py  //dist folder contain exe file
+Without console : pyinstaller -w file.py
+One Executable File : pyinstaller -F file.py
+2. With Icon : put file.ico on python Dir
+Icon : pyinstaller -i icon.ico file.py
+Best : pyinstaller -w -F -i icon.ico file.py
