@@ -70,7 +70,7 @@ button.pack()
 def main():
     root.title("Hash Generator")
     root.minsize(width=600,height=300)
-    root.maxsize(width=600,height=300)
+    root.maxsize(width=600,height=500)
     root.configure(background="white")
 
     root.mainloop()
