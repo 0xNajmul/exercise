@@ -6,13 +6,14 @@
 MAIN PROC       
     MOV AH,1
     INT 21H
-    
-    CMP AL,'A'
+    MOV BL,AL 
+
+    CMP BL,'A'
     JGE END_IF
     JMP EXIT
     
     END_IF:
-    CMP AL,'Z'     
+    CMP BL,'Z'     
     JLE POP 
     
     JMP EXIT
@@ -20,7 +21,7 @@ MAIN PROC
     POP:
       
     MOV AH,2
-    MOV DL,AL
+    MOV DL,BL
     INT 21H
     
     EXIT:
