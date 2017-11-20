@@ -1,0 +1,2 @@
+update_option( 'siteurl', 'http://example.com' );
+update_option( 'home', 'http://example.com' );
