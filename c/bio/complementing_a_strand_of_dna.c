@@ -1,3 +1,5 @@
+/* Problem Link : http://rosalind.info/problems/revc/ */
+
 #include<stdio.h>
 
 int main(){
