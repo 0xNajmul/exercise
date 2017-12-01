@@ -1,3 +1,5 @@
+/* Problem Link : http://rosalind.info/problems/rna/ */
+
 #include <stdio.h>
 #include <string.h>
 
