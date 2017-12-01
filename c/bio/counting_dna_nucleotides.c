@@ -1,3 +1,4 @@
+/* Problem Link : http://rosalind.info/problems/dna/ */
 #include<stdio.h>
 
 int main(){
