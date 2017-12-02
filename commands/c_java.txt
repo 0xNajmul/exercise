@@ -7,5 +7,5 @@
 2. Create a file (file.java)
 3. Type Code in java File
 4. Go to CMD 
-5. Type C:\mywork> javac filename.java
-6. C:\mywork> java filename
+5. javac filename.java
+6. java filename
