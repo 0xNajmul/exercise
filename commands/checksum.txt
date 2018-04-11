@@ -1,0 +1,2 @@
+#Check Checksum with Powetshell
+Get-FileHash -Algorithm md5 file_extension.exe
